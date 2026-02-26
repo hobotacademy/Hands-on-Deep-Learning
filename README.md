@@ -1,80 +1,55 @@
----
-layout: page
-title: "Hands-on Deep Learning"
-description: "From mathematical derivations of backpropagation to implementing Vision Transformers (ViT) and GANs."
-img: assets/img/dl-thumbnail.jpg
-category: [Computer Vision, NLP]
-tags: ["Deep Learning", "PyTorch", "Transformers", "GANs"]
-importance: 3
----
+# Hands-on Deep Learning 🧠
 
-<style>
-/* استایل دکمه لندینگ پیج */
-.github-redirect-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: fit-content;
-  margin: 40px auto;
-  padding: 14px 30px;
-  border: 1px solid #58a6ff;
-  color: #58a6ff !important;
-  background-color: transparent;
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  border-radius: 6px;
-  transition: all 0.2s ease;
-  font-size: 1rem;
-}
+Welcome to the official repository for the **Hands-on Deep Learning** course by **Hobot Academy**. This repository is a deep dive into the architectures, mathematics, and implementations of modern neural networks, curated by **Zahra Amini**.
 
-.github-redirect-btn:hover {
-  background-color: rgba(88, 166, 255, 0.1);
-  transform: translateY(-2px);
-  text-decoration: none;
-  box-shadow: 0 4px 12px rgba(88, 166, 255, 0.15);
-}
-
-.instructor-badge {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-size: 0.9rem;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  border-left: 3px solid #58a6ff;
-}
-</style>
-
-The **Hands-on Deep Learning** course is an advanced module at **Hobot Academy**, focusing on opening the "black box" of neural networks. We dive deep into the internal mechanics of state-of-the-art models, ensuring students understand both the calculus behind the gradients and the engineering behind the training loops.
-
-
-
-<div class="instructor-badge">
-  <strong>Lead Instructor:</strong> Zahra Amini
+<div align="center">
+  <img src="https://img.shields.io/badge/Instructor-Zahra%20Amini-blue?style=for-the-badge" alt="Instructor">
+  <img src="https://img.shields.io/badge/Academy-Hobot%20Academy-red?style=for-the-badge" alt="Academy">
+  <img src="https://img.shields.io/badge/Framework-PyTorch%20%2F%20TensorFlow-orange?style=for-the-badge" alt="Framework">
 </div>
 
-The complete curriculum, including handwritten mathematical derivations, NumPy-based neural networks from scratch, and PyTorch implementations of complex architectures, is available on GitHub.
+---
 
-<a href="https://github.com/hobotacademy/Hands-on-Deep-Learning" target="_blank" class="github-redirect-btn">
-  🚀 EXPLORE DEEP LEARNING ARCHITECTURES
-</a>
+## 🚀 The Deep Dive Philosophy
+In this course, we move beyond "using" models to **"understanding"** them. Deep Learning is often seen as a black box; our goal is to open that box. Each module focuses on the mathematical derivation of loss functions and gradients, followed by implementation in two ways:
+
+1.  **From Scratch:** Building the logic (like Backpropagation and Optimizers) using `NumPy` to master the internal mechanics.
+2.  **State-of-the-Art Frameworks:** Utilizing `PyTorch` (or `TensorFlow/Keras`) to build scalable, GPU-accelerated production-grade architectures.
 
 ---
 
-## Technical Syllabus
+## 🛠️ Curriculum & Roadmap
 
-The course is organized into intensive modules covering the evolution of Neural Networks:
+The curriculum is structured into progressive sessions, covering foundational layers to advanced generative and transformer models:
 
-* **Neural Foundations:** Implementing **Backpropagation** from scratch and mastering Multi-Layer Perceptrons (MLP).
-* **Computer Vision:** Advanced CNNs, Residual Connections (**ResNet**), and medical image segmentation using **U-Net**.
-* **Modern Architectures:** Transitioning from RNNs to **Vision Transformers (ViT)** and Attention mechanisms.
-* **Generative Models:** Building and training **Generative Adversarial Networks (GANs)** for image synthesis.
-* **Object Detection:** Exploring region-based CNNs (**R-CNN**) for precise localization.
+### Phase 1: Neural Network Foundations
+* **Session 01 & 02: FFNN (Feed-Forward Neural Networks)** - Understanding layers, activation functions, and the perceptron.
+* **Session 03 & 04: Backpropagation** - Deep dive into the chain rule and gradient descent from scratch.
+* **Session 05 & 06: MLP (Multi-Layer Perceptron)** - Building deep architectures and understanding hidden representations.
+* **Session 07 & 08: Managing Overfit & Underfit** - Mastery of Regularization, Dropout, and Batch Normalization.
 
-**Technologies used:** PyTorch, TensorFlow, NumPy, OpenCV, Jupyter.
+### Phase 2: Computer Vision & Sequential Modeling
+* **Session 09 & 10: CNN (Convolutional Neural Networks)** - Kernels, Pooling, and Feature Map extraction.
+* **Session 11 & 12: RNN (Recurrent Neural Networks)** - Handling sequential data and understanding memory in networks.
 
+### Phase 3: Advanced Architectures & Transformers
+* **Session 17 & 18: ViT, ResNet & U-Net** - Exploring skip connections, medical image segmentation (U-Net), and the shift towards Vision Transformers (ViT).
+* **Session 21 & 22: GAN (Generative Adversarial Networks)** - Learning the minimax game between Generators and Discriminators.
+* **Supplement (تکمله): R-CNN** - Advanced Object Detection pipelines and region-based CNNs.
+
+---
+
+## 📦 Requirements & Setup
+To run these notebooks, you will need:
+* Python 3.8+
+* NumPy, Matplotlib
+* PyTorch / TensorFlow
+* OpenCV (for CV sessions)
+
+```bash
+git clone [https://github.com/hobotacademy/Hands-on-Deep-Learning.git](https://github.com/hobotacademy/Hands-on-Deep-Learning.git)
+pip install torch torchvision numpy matplotlib
+```
 ---
 ## 👩‍🏫 Instructor: Zahra Amini
 
